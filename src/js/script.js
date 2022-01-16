@@ -10,7 +10,7 @@ function HiddenImages() {
 }
 
 function ShowImages() {
-    (imagens[imagemAtual].classList.add('mostrar'));
+    imagens[imagemAtual].classList.add('mostrar');
 }
 
 setaAvancar.addEventListener('click', () => {
